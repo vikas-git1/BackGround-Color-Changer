@@ -4,6 +4,18 @@
   align-items: flex-end;
   height: 100vh;
   padding: 0 3rem;
+  position: relative;
+}
+
+.color_code {
+  text-align: center;
+  position: absolute;
+  bottom: 50%;
+  left: 43%;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 3px grey;
 }
 
 .button {

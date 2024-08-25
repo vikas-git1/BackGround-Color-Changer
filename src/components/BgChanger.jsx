@@ -4,7 +4,7 @@ import "./BgChanger.css";
 import ColorButton from "./ColorButton";
 
 const BgChanger = () => {
-  const [updateBgColor, setUpdateBgColor] = useState("grey");
+  const [updateBgColor, setUpdateBgColor] = useState("#AAA106");
   const handleBgChange = (color) => {
     setUpdateBgColor(color);
   };
@@ -12,7 +12,7 @@ const BgChanger = () => {
   return (
     <>
       <div className="btn_container" style={{ backgroundColor: updateBgColor }}>
-        <h1>Color Code: {updateBgColor}</h1>
+        <h1 className="color_code">Color Code: {updateBgColor}</h1>
 
         {Data.map((color, index) => (
           <ColorButton
