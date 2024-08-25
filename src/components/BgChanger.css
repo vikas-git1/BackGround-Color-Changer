@@ -1,0 +1,24 @@
+.btn_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 100vh;
+  padding: 0 3rem;
+}
+
+.button {
+  margin-bottom: 50px;
+  padding: 5px 10px;
+  height: 3rem;
+  width: 6rem;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 0 0 15px 2px black;
+}
+
+.button:hover {
+  opacity: 0.8;
+  transition: 0.5s ease-in-out;
+}
