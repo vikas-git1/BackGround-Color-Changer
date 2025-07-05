@@ -28,9 +28,3 @@ const BgChanger = () => {
 
 export default BgChanger;
 
-// <button
-//   className="button"
-//   key={index}
-//   style={{ backgroundColor: color }}
-//   onClick={() => handleBgChange(color)}
-// ></button>
